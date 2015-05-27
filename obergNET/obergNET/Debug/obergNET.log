@@ -1,21 +1,25 @@
-﻿Построение начато 27.05.2015 13:40:04.
+﻿Построение начато 27.05.2015 14:54:16.
      1>Проект "C:\Users\KEZzz\Documents\GitHub\ObergNET\obergNET\obergNET\obergNET.vcxproj" в узле 2 (целевые объекты build).
-     1>PrepareForBuild:
-         Создание каталога "C:\Users\KEZzz\Documents\GitHub\ObergNET\obergNET\Debug\".
-       InitializeBuildStatus:
-         Создание "Debug\obergNET.unsuccessfulbuild", так как было задано "AlwaysCreate".
+     1>InitializeBuildStatus:
+         Обращение к "Debug\obergNET.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt obergNET.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /analyze- /errorReport:prompt obergNET.cpp /clr:nostdlib 
          obergNET.cpp
-       ManifestResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\obergNET.exe.embed.manifest.res" Debug\obergNET_manifest.rc 
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\KEZzz\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\KEZzz\Documents\GitHub\ObergNET\obergNET\Debug\obergNET.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\obergNET.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\KEZzz\Documents\GitHub\ObergNET\obergNET\Debug\obergNET.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\KEZzz\Documents\GitHub\ObergNET\obergNET\Debug\obergNET.lib" /MACHINE:X86 Debug\obergNET.exe.embed.manifest.res
-         Debug\obergNET.obj
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(268,5): error MSB6006: "link.exe" завершилась с кодом 1123.
-     1>LINK : fatal error LNK1123: сбой при преобразовании в COFF: файл недопустим или поврежден
-     1>Построение проекта "C:\Users\KEZzz\Documents\GitHub\ObergNET\obergNET\obergNET\obergNET.vcxproj" завершено (целевые объекты build) с ошибкой.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\KEZzz\Documents\GitHub\ObergNET\obergNET\Debug\obergNET.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\obergNET.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\KEZzz\Documents\GitHub\ObergNET\obergNET\Debug\obergNET.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\obergNET.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         obergNET.vcxproj -> C:\Users\KEZzz\Documents\GitHub\ObergNET\obergNET\Debug\obergNET.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\KEZzz\Documents\GitHub\ObergNET\obergNET\Debug\obergNET.exe;#1" /manifest Debug\obergNET.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\obergNET.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\obergNET.lastbuildstate".
+     1>Построение проекта "C:\Users\KEZzz\Documents\GitHub\ObergNET\obergNET\obergNET\obergNET.vcxproj" завершено (целевые объекты build).
 
-СБОЙ построения.
+Построение успешно завершено.
 
-Затраченное время: 00:00:05.33
+Затраченное время: 00:00:05.75
