@@ -2,45 +2,16 @@
 
 using namespace System;  //пространство имен System
 
-//class сборщика мусора
-__gc class InputWrapper
-{
-public:
-	int getInt(String *pprompt)  //Строка
-	{
-		Console::Write(pprompt);
-		String *pbuf = Console::ReadLine();
-		return Convert::ToInt32(pbuf); 
-	}
-	double getDouble(String *pprompt)
-	{
-		Console::Write(pprompt);
-		String *pbuf = Console::ReadLine();
-		return Convert::ToDouble(pbuf);
-	}
-	Decimal getDecimal(String *pprompt)
-	{
-		Console::Write(pprompt);
-		String *pbuf = Console::ReadLine();
-		return Convert::ToDecimal(pbuf);
-	}
-	String *getString(String *pprompt)
-	{
-		Console::Write(pprompt);
-		String *pbuf = Console::ReadLine();
-		return pbuf;
-	}
-};
-
 void main(void)
 {
-	InputWrapper *piw = new InputWrapper;
-	int numTemp = piw->getInt("How many temp's? ");
-	for (int i=0; i<numTemp; i++)
-	{
-		int fahr = piw->getInt("Temp. (Fahrenheit): ");
-		int celsius = (fahr - 32) * 5 / 9;  //Цельсия
-		Console::WriteLine("Fahrenheit = {0}", fahr.ToString());
-		Console::WriteLine("Celsius = {0}", __box(celsius));
-	}
+	Console::WriteLine(
+		"{0:C}, {1:D}, {2:E}, {3:F}, {4:G}, {5:N}, {6:X}",
+		__box(100), // поле валюты (currency)
+		__box(200), // десятичное число (decimal)
+		__box(300), // экспонента (exponent)
+		__box(400), // с фиксированной точкой (fixed point)
+		__box(500), // общий (general)
+		__box(600), // число (number)
+		__box(700) // шестнадцатеричное (hexadecimal)
+		);
 }
